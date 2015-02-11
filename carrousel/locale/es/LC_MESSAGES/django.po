@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-11 13:00-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: models.py:8
+msgid "Top-Left"
+msgstr "Arriba-Izquierda"
+
+#: models.py:9
+msgid "Middle-Left"
+msgstr "Medio-Izquierda"
+
+#: models.py:10
+msgid "Bottom-Left"
+msgstr "Abajo-Izquierda"
+
+#: models.py:11
+msgid "Top-Center"
+msgstr "Arriba-Centro"
+
+#: models.py:12
+msgid "Middle-Center"
+msgstr "Medio-Centro"
+
+#: models.py:13
+msgid "Bottom-Center"
+msgstr "Abajo-Centro"
+
+#: models.py:14
+msgid "Top-Right"
+msgstr "Arriba-Derecha"
+
+#: models.py:15
+msgid "Middle-Right"
+msgstr "Medio-Derecha"
+
+#: models.py:16
+msgid "Bottom-right"
+msgstr "Abajo-Derecha"
+
+#: models.py:22 models.py:38
+msgid "carrousel"
+msgstr "carrousel"
+
+#: models.py:24 models.py:40
+msgid "name"
+msgstr "nombre"
+
+#: models.py:25
+msgid "slug"
+msgstr "slug"
+
+#: models.py:26
+msgid "interval"
+msgstr "intervalo"
+
+#: models.py:27
+msgid "show indicators"
+msgstr "mostrar indicadores"
+
+#: models.py:35
+msgid "slide"
+msgstr "diapositiva"
+
+#: models.py:41
+msgid "position"
+msgstr "posición"
+
+#: models.py:42
+msgid "image"
+msgstr "imagen"
+
+#: models.py:43
+msgid "mobile image"
+msgstr "imagen móvil"
+
+#: models.py:44
+msgid "html"
+msgstr "html"
+
+#: models.py:45
+msgid "html position"
+msgstr "posición del html"
+
+#: models.py:47
+msgid "url"
+msgstr "url"
