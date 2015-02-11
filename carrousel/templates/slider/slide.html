@@ -1,0 +1,22 @@
+{% load staticfiles thumbnail %}
+
+{% for slide in carousel.slides.all %}
+{% if slide.url %}
+<a href="{{ slide.url }}" title="{{ slide.name }}">
+{% endif %}
+<div class="item{% ifequal forloop.counter 1 %} active{% endifequal %}">
+    <img src="{{ slide.image|thumbnail_url:'desktop-slide' }}" class="banner_desktop" alt="{{ slide.name }}">
+    {% with slide.mobile_image|default:slide.image as mobile_image %}
+    <img src="{{ mobile_image|thumbnail_url:'mobile-slide' }}" class="banner_mobile" alt="{{ slide.name }}">
+    {% endwith %}
+
+    <div class="carousel-caption {{ slide.html_position }}">
+        {% autoescape off %}
+        {{ slide.html }}
+        {% endautoescape %}
+    </div>
+</div>
+{% if slide.url %}
+</a>
+{% endif %}
+{% endfor %}

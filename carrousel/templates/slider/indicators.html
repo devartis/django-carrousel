@@ -1,0 +1,5 @@
+<ol class="carousel-indicators">
+    {% for slide in carousel.slides.all %}
+    <li data-target="#sliderIndex" data-slide-to="{{ slide.position }}"></li>
+    {% endfor %}
+</ol>
