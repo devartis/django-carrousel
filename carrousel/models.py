@@ -16,6 +16,7 @@ SLIDE_HTML_POSITION_CHOICES = (
     ('right-bot', _('Bottom-right'), ),
 )
 
+
 class Carrousel(models.Model):
     class Meta:
         verbose_name = _('carrousel')
@@ -47,4 +48,3 @@ class Slide(models.Model):
 
     def __unicode__(self):
         return self.name
-

@@ -1,16 +1,16 @@
 #! coding: utf-8
 from django import template
-from slider.models import Carousel
+from carrousel.models import Carrousel
 
 register = template.Library()
 
 
-@register.inclusion_tag('slider/slider.html')
+@register.inclusion_tag('carrousel/carrousel.html')
 def carousel(slug):
     try:
-        current_carousel = Carousel.objects.get(slug=slug)
+        current_carousel = Carrousel.objects.get(slug=slug)
         return {
             'carousel': current_carousel,
         }
-    except Carousel.DoesNotExist:
+    except Carrousel.DoesNotExist:
         pass

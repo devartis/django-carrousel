@@ -1,11 +1,11 @@
 {% if carousel %}
 <div id="sliderIndex" class="carousel slide" data-ride="carousel" data-interval="{{ carousel.interval }}">
     {% if carousel.show_indicators %}
-    {% include "slider/indicators.html" %}
+    {% include "carrousel/indicators.html" %}
     {% endif %}
 
     <div class="carousel-inner">
-        {% include "slider/slide.html" %}
+        {% include "carrousel/slide.html" %}
     </div>
 
     <a class="left carousel-control" href="#sliderIndex" role="button" data-slide="prev">
