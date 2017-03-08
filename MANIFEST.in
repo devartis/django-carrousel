@@ -1,4 +1,6 @@
 include LICENSE *.md *.txt
+recursive-include carrousel/templates *
+recursive-include carrousel/locale *
 #recursive-exclude * __pycache__
 #recursive-exclude * *.py[co]
 
